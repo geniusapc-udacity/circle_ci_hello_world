@@ -14,7 +14,7 @@ jobs:
       - image: circleci/node:13.8.0
     steps:
       - run: echo world
-       - run:
+      - run:
           name: "echo an env var that is part of our project"
           command: echo my name is $my_name # this env var must be set within the project
 
